@@ -29,11 +29,17 @@ Write a function named `addExclamation` that takes an array of strings, and retu
 Use `forEach` to loop over the input array. Modify each string, and add the updated value into a local array. Return the local array;
 ------------------------------------------------------------------------------------------------ */
 
-const addExclamation = (arr) => {
+const addExclamation = (word) => {
   // Solution code here...
+let result + []};
+
+word.forEachword=> {
+  result.word( ${word}! )
+}
+return result;
 };
 
-/* ------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------
 CHALLENGE 3
 
 Write a function named `allUpperCase` that takes an array of strings, and returns a new array of the strings converted to upper case.
@@ -41,12 +47,15 @@ Write a function named `allUpperCase` that takes an array of strings, and return
 Use `forEach` to loop over the input array. The modified strings should each be added into a local array. Return that local array.
 ------------------------------------------------------------------------------------------------ */
 
-const allUpperCase = (arr) => {
-  // Solution code here...
-};
+const allUpperCase = (words) => {
+  let result = [];
+  words.forEach((word, i) =>{
+    result[i =word.toUpperCase();]
+  });
+return result;
 
-/* ------------------------------------------------------------------------------------------------
-CHALLENGE 4
+ ------------------------------------------------------------------------------------------------
+// CHALLENGE 4
 
 Write a function named `greeting` that takes in a single string and returns the string in all uppercase letters, and followed by an "!".
 
@@ -56,11 +65,18 @@ Use `forEach` to build a new array of strings, each string modified by the callb
 ------------------------------------------------------------------------------------------------ */
 
 const greeting = (word) => {
-  // Solution code here...
+  return "Hi!";
+  return word.toUpperCase( ='!')
+  return '{Upper}!';
+    
+  https://github.com/harguss/Reading-Notes/new/main
+
+
 };
 
 const speaker = (words, callback) => {
-  // Solution code here...
+  https://github.com/harguss/Reading-Notes/new/main
+
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -87,7 +103,7 @@ const addNumbers = (num, arr, times, callback) => {
   // Solution code here...
 };
 
-/* ------------------------------------------------------------------------------------------------
+ ------------------------------------------------------------------------------------------------
 
 CHALLENGE 6
 
@@ -106,7 +122,13 @@ This function should use forEach to populate your grocery list based on the stor
 ------------------------------------------------------------------------------------------------ */
 
 const createList = (availableItems) => {
-  // Solution code here...
+  let result =[];
+  
+  availableItems.forEach(item => {
+    if (item.available === true) {
+      result.push(item.name);
+    }
+  })
 };
 
 /* ------------------------------------------------------------------------------------------------
